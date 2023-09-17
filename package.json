@@ -1,55 +1,26 @@
 {
-  "name": "pekobotton",
+  "name": "pekobutton",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "translations": "node --experimental-json-modules ./scripts/create-translations-from-voices.js",
+    "slugify-names": "node --experimental-json-modules ./scripts/slugify-voice-list-items-names.js"
   },
   "dependencies": {
-    "@mdi/font": "^5.3.45",
-    "core-js": "^3.6.5",
-    "register-service-worker": "^1.7.1",
-    "vue": "^2.6.10",
-    "vue-cookies": "^1.7.0",
-    "vue-i18n": "^8.18.1",
-    "vue-router": "^3.3.2",
-    "vuetify": "^2.2.32",
-    "vuex": "^3.4.0"
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.2.96",
+    "slugify": "^1.6.6"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.1",
-    "@vue/cli-plugin-eslint": "^4.4.1",
-    "@vue/cli-plugin-pwa": "^4.4.1",
-    "@vue/cli-plugin-router": "^4.4.1",
-    "@vue/cli-plugin-vuex": "^4.4.1",
-    "@vue/cli-service": "^4.4.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "sass": "^1.26.8",
-    "sass-loader": "^8.0.2",
-    "vue-cli-plugin-vuetify": "^2.0.5",
-    "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.4.4"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "@invictus.codes/nuxt-vuetify": "^0.3.0",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-rc.4",
+    "nuxt": "^3.7.3"
+  }
 }

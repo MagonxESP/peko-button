@@ -1,12 +1,14 @@
 {
-    "groups": [{
+    "groups": [
+        {
             "name": "hahaha",
             "translation": {
                 "Chinese": "各种哈↑哈↑哈↑",
                 "Japanese": "いろいろははは",
                 "English": "HAHAHA"
             },
-            "voicelist": [{
+            "voicelist": [
+                {
                     "name": "hahahahaha",
                     "path": "hahahahaha.mp3",
                     "translation": {
@@ -34,7 +36,7 @@
                     }
                 },
                 {
-                    "name": "hahahaha(echo)",
+                    "name": "hahahaha-(echo)",
                     "path": "hahahaha(echo).mp3",
                     "translation": {
                         "Chinese": "哈↑哈↑哈↑哈↑(回音)",
@@ -43,7 +45,7 @@
                     }
                 },
                 {
-                    "name": "哈→哈→哈↗哈↑哈→哈→",
+                    "name": "hahahahahaha",
                     "path": "哈→哈→哈↗哈↑哈→哈→.mp3",
                     "translation": {
                         "Chinese": "哈→哈→哈↗哈↑哈→哈→",
@@ -51,7 +53,6 @@
                         "English": "HA→HA→HA↗HA↑HA→HA→"
                     }
                 }
-
             ]
         },
         {
@@ -61,17 +62,17 @@
                 "Japanese": "PekoRap",
                 "English": "PekoRap"
             },
-            "voicelist": [{
-
-                "name": "H！色狼！不要碰！你的胖次几厘米",
-                "path": "H！色狼！不要碰！你的胖次几厘米.mp3",
-                "translation": {
-                    "Chinese": "H！色狼！不要碰！你的胖次几厘米",
-                    "Japanese": "エッチ！スケッチ！ワンタッチ！あなたのパンツ何センチ？",
-                    "English": "Ecchi! Horny! Slutty! What is the length of your panty?"
+            "voicelist": [
+                {
+                    "name": "ecchi!-horny!-slutty!-what-is-the-length-of-your-panty",
+                    "path": "H！色狼！不要碰！你的胖次几厘米.mp3",
+                    "translation": {
+                        "Chinese": "H！色狼！不要碰！你的胖次几厘米",
+                        "Japanese": "エッチ！スケッチ！ワンタッチ！あなたのパンツ何センチ？",
+                        "English": "Ecchi! Horny! Slutty! What is the length of your panty?"
+                    }
                 }
-
-            }]
+            ]
         },
         {
             "name": "others",
@@ -80,8 +81,9 @@
                 "Japanese": "ユニバーサル",
                 "English": "General"
             },
-            "voicelist": [{
-                    "name": "benbenqia",
+            "voicelist": [
+                {
+                    "name": "bun-bun-cha~",
                     "path": "benbenqia.mp3",
                     "translation": {
                         "Chinese": "笨笨恰~",
@@ -90,7 +92,7 @@
                     }
                 },
                 {
-                    "name": "佩克拉不知道",
+                    "name": "pekora-doesn't-know",
                     "path": "佩克拉不知道.mp3",
                     "translation": {
                         "Chinese": "佩克拉不知道",
@@ -99,7 +101,7 @@
                     }
                 },
                 {
-                    "name": "对不起",
+                    "name": "i'm-sorry~",
                     "path": "对不起.wav",
                     "translation": {
                         "Chinese": "对不起~",
@@ -108,7 +110,7 @@
                     }
                 },
                 {
-                    "name": "真可爱呢",
+                    "name": "so-cute~",
                     "path": "真可爱呢.wav",
                     "translation": {
                         "Chinese": "真可爱呢",
@@ -117,7 +119,7 @@
                     }
                 },
                 {
-                    "name": "要上喽~",
+                    "name": "let's-go~",
                     "path": "要上喽~.wav",
                     "translation": {
                         "Chinese": "要上喽~",
@@ -126,7 +128,7 @@
                     }
                 },
                 {
-                    "name": "Duuuuu马猴~",
+                    "name": "duuuuu-magic~",
                     "path": "Duuuuu马猴~.wav",
                     "translation": {
                         "Chinese": "Duuuuu马猴~",
@@ -135,7 +137,7 @@
                     }
                 },
                 {
-                    "name": "不要乱看啊",
+                    "name": "don't-look!",
                     "path": "不要乱看啊.mp3",
                     "translation": {
                         "Chinese": "不要乱看啊!",
@@ -144,7 +146,7 @@
                     }
                 },
                 {
-                    "name": "请不要这样",
+                    "name": "please-stop-it",
                     "path": "请不要这样.mp3",
                     "translation": {
                         "Chinese": "请不要这样",
@@ -153,7 +155,7 @@
                     }
                 },
                 {
-                    "name": "真的很H呢",
+                    "name": "so-lewd",
                     "path": "真的很H呢.mp3",
                     "translation": {
                         "Chinese": "真的很H呢",
@@ -162,7 +164,7 @@
                     }
                 },
                 {
-                    "name": "我可是偶像呢",
+                    "name": "i'm-an-idol",
                     "path": "我可是偶像呢.mp3",
                     "translation": {
                         "Chinese": "我可是偶像呢",
@@ -170,9 +172,8 @@
                         "English": "I'm an idol"
                     }
                 },
-
                 {
-                    "name": "你们这帮人最差劲了",
+                    "name": "you-guys-are-the-worst",
                     "path": "你们这帮人最差劲了.mp3",
                     "translation": {
                         "Chinese": "你们这帮人最差劲了",
@@ -180,9 +181,8 @@
                         "English": "You guys are the worst"
                     }
                 },
-
                 {
-                    "name": "明显不一样好吧",
+                    "name": "obviously-they-are-different-peko!",
                     "path": "明显不一样好吧.mp3",
                     "translation": {
                         "Chinese": "明显不一样好吧",
@@ -193,14 +193,15 @@
             ]
         },
         {
-            "name": "问候",
+            "name": "greetings",
             "translation": {
                 "Chinese": "问候",
                 "Japanese": "あいさつ",
                 "English": "Greetings"
             },
-            "voicelist": [{
-                    "name": "嗨！",
+            "voicelist": [
+                {
+                    "name": "hi!",
                     "path": "嗨！.wav",
                     "translation": {
                         "Chinese": "嗨！",
@@ -209,7 +210,7 @@
                     }
                 },
                 {
-                    "name": "喵哈喽~",
+                    "name": "nya-hallo",
                     "path": "喵哈喽~.wav",
                     "translation": {
                         "Chinese": "喵哈喽~",
@@ -218,7 +219,7 @@
                     }
                 },
                 {
-                    "name": "自我介绍",
+                    "name": "self-introduction",
                     "path": "自我介绍.wav",
                     "translation": {
                         "Chinese": "自我介绍",
@@ -227,7 +228,7 @@
                     }
                 },
                 {
-                    "name": "欢迎来到兔田大家族",
+                    "name": "welcome-to-usada-family",
                     "path": "欢迎来到兔田大家族.mp3",
                     "translation": {
                         "Chinese": "欢迎来到兔田大家族",
@@ -236,7 +237,7 @@
                     }
                 },
                 {
-                    "name": "早上好",
+                    "name": "good-morning",
                     "path": "早上好.mp3",
                     "translation": {
                         "Chinese": "早上好",
@@ -245,7 +246,7 @@
                     }
                 },
                 {
-                    "name": "晚上好peko",
+                    "name": "good-evening",
                     "path": "晚上好peko.mp3",
                     "translation": {
                         "Chinese": "晚上好peko",
@@ -254,7 +255,7 @@
                     }
                 },
                 {
-                    "name": "阿里嘎多peko",
+                    "name": "thank-you-peko",
                     "path": "阿里嘎多peko.wav",
                     "translation": {
                         "Chinese": "阿里嘎多peko",
@@ -263,7 +264,7 @@
                     }
                 },
                 {
-                    "name": "谢谢（中文）",
+                    "name": "thank-you-(chinese)",
                     "path": "谢谢（中文）.mp3",
                     "translation": {
                         "Chinese": "谢谢（中文）",
@@ -272,7 +273,7 @@
                     }
                 },
                 {
-                    "name": "谢谢（英文）",
+                    "name": "thank-you-(english)",
                     "path": "谢谢（英文）.mp3",
                     "translation": {
                         "Chinese": "谢谢（英文）",
@@ -281,7 +282,7 @@
                     }
                 },
                 {
-                    "name": "再见（中文）",
+                    "name": "good-bye-(chinese)",
                     "path": "再见（中文）.mp3",
                     "translation": {
                         "Chinese": "再见（中文）",
@@ -290,7 +291,7 @@
                     }
                 },
                 {
-                    "name": "我爱你（中文）",
+                    "name": "i-love-you-(chinese)",
                     "path": "我爱你（中文）.mp3",
                     "translation": {
                         "Chinese": "我爱你（中文）",
@@ -301,14 +302,15 @@
             ]
         },
         {
-            "name": "语气",
+            "name": "emotion",
             "translation": {
                 "Chinese": "语气",
                 "Japanese": "気分",
                 "English": "Emotion"
             },
-            "voicelist": [{
-                    "name": "哼~",
+            "voicelist": [
+                {
+                    "name": "un~",
                     "path": "哼~.mp3",
                     "translation": {
                         "Chinese": "哼~",
@@ -317,7 +319,7 @@
                     }
                 },
                 {
-                    "name": "Olreeee!",
+                    "name": "oreeeee!",
                     "path": "Olreeee.wav",
                     "translation": {
                         "Chinese": "Olreeee!",
@@ -326,7 +328,7 @@
                     }
                 },
                 {
-                    "name": "歪比歪比~歪比巴卜",
+                    "name": "wabiwabi~wabibabo~",
                     "path": "歪比歪比~歪比巴卜.mp3",
                     "translation": {
                         "Chinese": "歪比歪比~歪比巴卜",
@@ -335,7 +337,7 @@
                     }
                 },
                 {
-                    "name": "巴布~巴布巴布~",
+                    "name": "babu~babubau~",
                     "path": "巴布~巴布巴布~.mp3",
                     "translation": {
                         "Chinese": "巴布~巴布巴布~",
@@ -344,7 +346,7 @@
                     }
                 },
                 {
-                    "name": "PEKOPEKOPEKOPEKO",
+                    "name": "pekopekopekopeko",
                     "path": "PEKOPEKOPEKOPEKO.mp3",
                     "translation": {
                         "Chinese": "PEKOPEKOPEKOPEKO",
@@ -353,7 +355,7 @@
                     }
                 },
                 {
-                    "name": "PONPONPONPON",
+                    "name": "ponponponpon",
                     "path": "PONPONPONPON.wav",
                     "translation": {
                         "Chinese": "PONPONPONPON",
@@ -362,7 +364,7 @@
                     }
                 },
                 {
-                    "name": "Prrrrrre",
+                    "name": "prrrrrre",
                     "path": "Prrrrrre.wav",
                     "translation": {
                         "Chinese": "Prrrrrre",
@@ -371,7 +373,7 @@
                     }
                 },
                 {
-                    "name": "Sei~no",
+                    "name": "ready~",
                     "path": "Seino.wav",
                     "translation": {
                         "Chinese": "Sei~no",
@@ -380,7 +382,7 @@
                     }
                 },
                 {
-                    "name": "波纹呼吸",
+                    "name": "hamon-breath",
                     "path": "波纹呼吸.mp3",
                     "translation": {
                         "Chinese": "波纹呼吸",
@@ -389,7 +391,7 @@
                     }
                 },
                 {
-                    "name": "哈欠",
+                    "name": "yawning",
                     "path": "哈欠.mp3",
                     "translation": {
                         "Chinese": "哈欠",
@@ -398,7 +400,7 @@
                     }
                 },
                 {
-                    "name": "呐!",
+                    "name": "nah!",
                     "path": "呐！.mp3",
                     "translation": {
                         "Chinese": "呐!",
@@ -407,7 +409,7 @@
                     }
                 },
                 {
-                    "name": "呐~呐~",
+                    "name": "ne~ne~",
                     "path": "呐~呐~.mp3",
                     "translation": {
                         "Chinese": "呐~呐~",
@@ -416,7 +418,7 @@
                     }
                 },
                 {
-                    "name": "boooou~~",
+                    "name": "booooo~",
                     "path": "boooou~~.wav",
                     "translation": {
                         "Chinese": "boooou~~",
@@ -425,7 +427,7 @@
                     }
                 },
                 {
-                    "name": "嗨↑嗨↑嗨↑",
+                    "name": "hihihi",
                     "path": "嗨↑嗨↑嗨↑.wav",
                     "translation": {
                         "Chinese": "嗨↑嗨↑嗨↑",
@@ -434,7 +436,7 @@
                     }
                 },
                 {
-                    "name": "啦啦啦啦啦",
+                    "name": "lalalalalalala",
                     "path": "啦啦啦啦啦.wav",
                     "translation": {
                         "Chinese": "啦啦啦啦啦",
@@ -443,7 +445,7 @@
                     }
                 },
                 {
-                    "name": "Ma⬆↓",
+                    "name": "ma",
                     "path": "Ma⬆↓.wav",
                     "translation": {
                         "Chinese": "Ma⬆↓",
@@ -452,7 +454,7 @@
                     }
                 },
                 {
-                    "name": "喵",
+                    "name": "nya~",
                     "path": "喵.mp3",
                     "translation": {
                         "Chinese": "喵",
@@ -461,7 +463,7 @@
                     }
                 },
                 {
-                    "name": "喵2",
+                    "name": "nya~-2",
                     "path": "喵2.mp3",
                     "translation": {
                         "Chinese": "喵2",
@@ -470,7 +472,7 @@
                     }
                 },
                 {
-                    "name": "喵喵喵喵喵喵喵喵喵喵",
+                    "name": "nya~nya~nya~nya~nya~nya~nya~nya~",
                     "path": "喵喵喵喵喵喵喵喵喵喵.mp3",
                     "translation": {
                         "Chinese": "喵喵喵喵喵喵喵喵喵喵",
@@ -481,14 +483,15 @@
             ]
         },
         {
-            "name": "？抖M福利",
+            "name": "m",
             "translation": {
                 "Chinese": "？抖M福利",
                 "Japanese": "?たくさん助けて",
                 "English": "M"
             },
-            "voicelist": [{
-                    "name": "恶心心",
+            "voicelist": [
+                {
+                    "name": "disgusting",
                     "path": "恶心心.wav",
                     "translation": {
                         "Chinese": "恶心心",
@@ -497,7 +500,7 @@
                     }
                 },
                 {
-                    "name": "死小孩快滚去吃饭啊白痴！",
+                    "name": "damn-you-kid-go-eat-your-lunch.",
                     "path": "死小孩快滚去吃饭啊白痴！.mp3",
                     "translation": {
                         "Chinese": "死小孩快滚去吃饭啊白痴！",
@@ -505,7 +508,7 @@
                     }
                 },
                 {
-                    "name": "别在这里看我直播了死小孩！",
+                    "name": "you-son-of-****-don't-watch-my-stream.",
                     "path": "别在这里看我直播了死小孩！.mp3",
                     "translation": {
                         "Chinese": "别在这里看我直播了死小孩！",
@@ -513,7 +516,7 @@
                     }
                 },
                 {
-                    "name": "快放完你的正月假滚回学校去啊！",
+                    "name": "finish-your-winter-vacation-and-go-back-to-grade-school!",
                     "path": "快放完你的正月假滚回学校去啊！.mp3",
                     "translation": {
                         "Chinese": "快放完你的正月假滚回学校去啊！",
@@ -521,7 +524,7 @@
                     }
                 },
                 {
-                    "name": "放学来操场后面我削不死你",
+                    "name": "come-to-gym-afterward-i'm-going-to-kick-your-ass.",
                     "path": "放学来操场后面我削不死你.wav",
                     "translation": {
                         "Chinese": "放学来操场后面我削不死你",
@@ -529,7 +532,7 @@
                     }
                 },
                 {
-                    "name": "你们真的是一群色小鬼",
+                    "name": "you-kids-are-really-vulgar",
                     "path": "你们真的是一群色小鬼.m4a",
                     "translation": {
                         "Chinese": "你们真的是一群色小鬼",
@@ -539,13 +542,15 @@
             ]
         },
         {
-            "name": "名言",
+            "name": "famous_proverb",
             "translation": {
                 "Chinese": "名言",
-                "Japanese": "有名なことわざ"
+                "Japanese": "有名なことわざ",
+                "English": "Famous proverb"
             },
-            "voicelist": [{
-                    "name": "喜欢佩克拉的话就推啊",
+            "voicelist": [
+                {
+                    "name": "if-you-like-pekora-just-push",
                     "path": "喜欢佩克拉的话就推啊.mp3",
                     "translation": {
                         "Chinese": "喜欢佩克拉的话就推啊",
@@ -553,7 +558,7 @@
                     }
                 },
                 {
-                    "name": "喜欢就推就好了啦",
+                    "name": "just-push-if-you-like-it.",
                     "path": "喜欢就推就好了啦.mp3",
                     "translation": {
                         "Chinese": "喜欢就推就好了啦",
@@ -561,7 +566,7 @@
                     }
                 },
                 {
-                    "name": "佩克拉喜欢在现实中看见别人流泪的样子",
+                    "name": "in-real-life-pekora-does-love-staring-in-their-weeping-faces",
                     "path": "佩克拉喜欢在现实中看见别人流泪的样子.mp3",
                     "translation": {
                         "Chinese": "佩克拉喜欢在现实中看见别人流泪的样子",
@@ -569,7 +574,7 @@
                     }
                 },
                 {
-                    "name": "佩克拉只是喜欢美丽的泪水啊",
+                    "name": "pekora-only-likes-beautiful-tears",
                     "path": "佩克拉只是喜欢美丽的泪水啊.mp3",
                     "translation": {
                         "Chinese": "佩克拉只是喜欢美丽的泪水啊",
@@ -577,7 +582,7 @@
                     }
                 },
                 {
-                    "name": "佩克拉明明是以清楚健全偶像的身份活着的",
+                    "name": "pekora-lives-a-pure-and-family-friendly-idol-life.",
                     "path": "佩克拉明明是以清楚健全偶像的身份活着的.mp3",
                     "translation": {
                         "Chinese": "佩克拉明明是以清楚健全偶像的身份活着的",
@@ -586,7 +591,7 @@
                     }
                 },
                 {
-                    "name": "你们没有在佩克拉身上感受到色气吗",
+                    "name": "you-guys-don't-think-my-body-is-sexy",
                     "path": "你们没有在佩克拉身上感受到色气吗.mp3",
                     "translation": {
                         "Chinese": "你们没有在佩克拉身上感受到色气吗",
@@ -595,7 +600,7 @@
                     }
                 },
                 {
-                    "name": "这群家伙可能没有性欲这种东西",
+                    "name": "these-people-have-no-sexual-desire",
                     "path": "这群家伙可能没有性欲这种东西.mp3",
                     "translation": {
                         "Chinese": "这群家伙可能没有性欲这种东西",
@@ -604,7 +609,7 @@
                     }
                 },
                 {
-                    "name": "你们就是喜欢看佩克拉吃瘪的样子对吧",
+                    "name": "don't-you-guys-just-want-to-see-pekora-suffers",
                     "path": "你们就是喜欢看佩克拉吃瘪的样子对吧.mp3",
                     "translation": {
                         "Chinese": "你们就是喜欢看佩克拉吃瘪的样子对吧",
@@ -621,8 +626,9 @@
                 "Japanese": "マーベル",
                 "English": "Surprise"
             },
-            "voicelist": [{
-                    "name": "sugoyi",
+            "voicelist": [
+                {
+                    "name": "amazing",
                     "path": "sugoyi.mp3",
                     "translation": {
                         "Chinese": "斯国一~",
@@ -631,7 +637,7 @@
                     }
                 },
                 {
-                    "name": "你在干什么peko（音量注意）",
+                    "name": "what-are-you-doing-peko-(volume-warning)",
                     "path": "你在干什么peko（音量注意）.mp3",
                     "translation": {
                         "Chinese": "你在干什么peko（音量注意）",
@@ -640,7 +646,7 @@
                     }
                 },
                 {
-                    "name": "救救我，前辈",
+                    "name": "help-me-senpai!-(volume-warning)",
                     "path": "救救我，前辈.mp3",
                     "translation": {
                         "Chinese": "救救我，前辈（音量注意）",
@@ -649,7 +655,7 @@
                     }
                 },
                 {
-                    "name": "啊！搞错了！",
+                    "name": "ah...-i-messed-up!",
                     "path": "啊！搞错了！.mp3",
                     "translation": {
                         "Chinese": "啊！搞错了！",
@@ -658,8 +664,5 @@
                 }
             ]
         }
-
-
-
     ]
 }
