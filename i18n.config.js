@@ -6,24 +6,24 @@ import jaVoiceGroupsItems from './lang/ja/voice_list.js'
 import zhVoiceGroupsItems from './lang/zh/voice_list.js'
 
 const en = {
-    ...enVoiceGroups,
-    ...enVoiceGroupsItems
+	...enVoiceGroups,
+	...enVoiceGroupsItems
 }
 
 const ja = {
-    ...jaVoiceGroups,
-    ...jaVoiceGroupsItems
+	...jaVoiceGroups,
+	...jaVoiceGroupsItems
 }
 
 const zh = {
-    ...zhVoiceGroups,
-    ...zhVoiceGroupsItems
+	...zhVoiceGroups,
+	...zhVoiceGroupsItems
 }
 
 console.log(en)
 
 export default defineI18nConfig(() => ({
-    legacy: false,
-    locale: 'en',
-    messages: { en, ja, zh }
-  }))
+	legacy: false,
+	locale: 'en',
+	messages: {en, ja, zh}
+}))

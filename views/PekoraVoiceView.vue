@@ -1,49 +1,32 @@
 <template>
-    <Card v-for="group in voices.groups" class="voice-group">
-        <h3>{{ $t(groupNameKey(group.name)) }}</h3>
-        <div class="voice-list">
-            <Button v-for="voice in group.voicelist" @click="play(voice.path)">{{ $t(groupVoiceListItemKey(group.name, voice.name)) }}</Button>
-        </div>
-    </Card>
+	<v-row v-for="group in voices.groups" class="mb-4 w-full">
+		<v-card class="w-100">
+			<v-card-title>{{ $t(groupNameKey(group.name)) }}</v-card-title>
+			<v-card-item class="d-flex flex-wrap">
+				<v-btn
+					color="#ff9330"
+					class="d-inline-block mr-3 mb-3"
+					v-for="voice in group.voicelist" @click="play(voice.path)">
+					{{ $t(groupVoiceListItemKey(group.name, voice.name)) }}
+				</v-btn>
+			</v-card-item>
+		</v-card>
+	</v-row>
 </template>
 
 <script setup>
 import * as voices from '../assets/voices.json'
 
 function play(path) {
-    const audio = new Audio(`/voices/${path}`)
-    audio.play()
+	const audio = new Audio(`/voices/${path}`)
+	audio.play()
 }
 
 function groupNameKey(name) {
-    return `voice_group_${name}`
+	return `voice_group_${name}`
 }
 
 function groupVoiceListItemKey(groupName, name) {
-    return `voice_list_${groupName}_${name}`
+	return `voice_list_${groupName}_${name}`
 }
 </script>
-
-<style>
-h3 {
-    margin-top: 4px;
-    margin-bottom: 32px;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-
-.voice-group {
-    padding: 12px;
-    margin-bottom: 8px;
-}
-
-.voice-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.voice-list > * {
-    margin-right: 8px;
-    margin-bottom: 8px;
-}
-</style>

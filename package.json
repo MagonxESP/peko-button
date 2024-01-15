@@ -14,13 +14,17 @@
   },
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
-    "@mdi/js": "^7.2.96",
+    "@mdi/font": "7.4.47",
+    "@mdi/js": "7.2.96",
     "slugify": "^1.6.6"
   },
   "devDependencies": {
-    "@invictus.codes/nuxt-vuetify": "^0.3.0",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/i18n": "^8.0.0-rc.4",
-    "nuxt": "^3.7.3"
+    "@nuxtjs/i18n": "8.0.0",
+    "nuxt": "3.9.1",
+    "sass": "^1.69.7",
+    "sass-loader": "^13.3.3",
+    "vite-plugin-vuetify": "2.0.1",
+    "vuetify": "3.4.10"
   }
 }
